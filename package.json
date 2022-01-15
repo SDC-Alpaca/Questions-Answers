@@ -1,0 +1,31 @@
+{
+  "name": "questions-answers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDC-Alpaca/Questions-Answers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDC-Alpaca/Questions-Answers/issues"
+  },
+  "homepage": "https://github.com/SDC-Alpaca/Questions-Answers#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "node": "^17.3.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.66.0"
+  }
+}
